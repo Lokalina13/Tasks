@@ -10,4 +10,4 @@ for i in range(10):
         x = x + step
     y = y + step
     x = 10
-saveImage("draw.pdf")
+saveImage("draw3.pdf")
