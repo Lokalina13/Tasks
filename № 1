@@ -1,0 +1,8 @@
+from drawbot_skia.drawbot import oval, saveImage
+
+step = 100
+y = 50
+for i in range(5):
+    oval (500, y, 100, 100)
+    y = y + step
+saveImage("HW1.pdf")
