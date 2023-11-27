@@ -10,4 +10,4 @@ for i in range(6):
     y = 50
     x = x + step
     
-saveImage("HW2.pdf")
+saveImage("draw2.pdf")
