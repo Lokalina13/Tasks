@@ -1,0 +1,13 @@
+from drawbot_skia.drawbot import oval, rect, saveImage
+y = 25
+x = 30
+step = 100
+for i in range(10):
+    for t in range(6):
+        oval (x, y, 80, 80 )
+        x = x + step
+        rect (x, y, 80, 80 )
+        x = x + step
+    y = y + step
+    x = 10
+saveImage("draw.pdf")
